@@ -1,0 +1,22 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px 5px gray;
+    background: white;
+    position: relative;
+}
+.homepage> .button{
+    background-color: #000095;
+    border: 1px solid #000095;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
